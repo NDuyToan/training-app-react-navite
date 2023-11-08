@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {images, icons} from '../constants/index';
-import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const Welcome = props => {
   return (
@@ -91,7 +90,6 @@ const Welcome = props => {
                 height: 20,
               }}
             /> */}
-            <Icon name="check-circle" />
             <Text
               style={{
                 color: '#F3705A',
